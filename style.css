@@ -1,0 +1,74 @@
+.container{
+    width: 1000px;
+    
+}
+
+body{
+    line-height: 1.25;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+h1,h2{
+    font-weight: lighter;
+}
+img{
+    border-radius: 50%;
+    border-style:dotted;
+    border-color: rgb(240, 187, 40) ;
+    border-width: 3px;
+}
+#profilepic{
+    position:relative;
+    background-color: rgb(88, 85, 85);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#profilepic1{
+    background-color: rgb(88, 85, 85);
+    text-align: center;
+}
+
+ #profile4{
+    background-color: rgb(88, 85, 85);
+} 
+
+#contactdetails{
+    text-align: center;
+}
+
+.name{
+    font-size:large;
+    position:absolute;
+    width: 200px;
+    height: 50px;
+    background-color:rgb(240, 187, 40) ;
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+.verticalline{
+    border-left: 1px solid black;
+    height: 100%;
+    position:absolute;
+    left: 50%;        
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 200px;
+    height: 7px;
+    background: rgb(240, 187, 40) ;
+    border-radius: 5px;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+  }
